@@ -1,0 +1,17 @@
+{
+  "name": "mailchimp_newsletter",
+  "version": "1.0.0",
+  "description": "simple newsletter app using mailchimp_newsletter",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app",
+    "dev":"nodemon app"
+  },
+  "author": "bhh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
